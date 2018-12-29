@@ -7,7 +7,7 @@ public class Token {
     public Token() {
     }
 
-    public Token(TokenType type, String content) {
+    Token(TokenType type, String content) {
         _Type = type;
         _Content = content;
     }
@@ -20,11 +20,11 @@ public class Token {
         _Content = content;
     }
 
-    public TokenType getType() {
+    TokenType getType() {
         return _Type;
     }
 
-    public String getContent() {
+    String getContent() {
         return _Content;
     }
 

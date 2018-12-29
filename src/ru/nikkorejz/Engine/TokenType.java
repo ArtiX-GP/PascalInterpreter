@@ -1,6 +1,8 @@
 package ru.nikkorejz.Engine;
 
 public enum TokenType {
+    BEGIN,
+
     NUMBER,
 
     MULTIPLY,
@@ -8,8 +10,14 @@ public enum TokenType {
     MINUS,
     PLUS,
 
+    WORD,
+    EQUALS,
+
     LPAREN, // (
     RPAREN, // )
 
+    END,
+
+    EOL,
     EOF
 }
